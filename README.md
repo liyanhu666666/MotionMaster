@@ -15,7 +15,7 @@ This is the code repository of **MotionMaster: Generalizable Text-Driven Motion 
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/xxxxxxxxxx/MotionMaster.git
+    git clone https://github.com/liyanhu666666/MotionMaster.git
     cd MotionMaster
     ```
 
