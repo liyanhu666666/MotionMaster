@@ -2,7 +2,7 @@
 
 This is the code repository of **MotionMaster: Generalizable Text-Driven Motion Generation and Editing** at **CVPR 2026**.
 
-📝 [**arXiv**](https://arxiv.org) | 🌐 [**Project Page**](https://xxxxxxxxxx.github.io)
+📝 [**arXiv**](https://arxiv.org) | 🌐 [**Project Page**](https://jnnan.github.io/motionmaster/)
 
 # Getting Started
 
