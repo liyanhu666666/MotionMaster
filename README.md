@@ -60,18 +60,13 @@ MotionMaster/
 └── README.md
 ```
 
-### Running Inference
-
-#### Single Action Generation
+### Single Motion Generation
 
 To generate a single motion using the `mllm_single_3b` checkpoint, run:
 
 ```sh
 python infer.py --text "a person walks forward" --output output.pkl
 ```
-
-#### Long Sequence Generation & Motion Editing
-*Coming soon!*
 
 Additional arguments:
 ```
@@ -82,6 +77,11 @@ Additional arguments:
 --stats_npz     Path to normalization stats (default: checkpoints/norm_stats.npz)
 --smplx_path    Path to SMPL-X model (default: checkpoints/smplx_model)
 ```
+
+### Long Sequence Generation & Motion Editing
+*Coming soon!*
+
+
 
 ### Output Format
 
