@@ -4,7 +4,7 @@ Usage:
     python infer.py --text "a person walks forward" --output output.pkl
 
 Requires:
-    checkpoints/mllm/          - fine-tuned Qwen2.5-VL model
+    checkpoints/mllm_single_3b/ - fine-tuned Qwen2.5-VL model
     checkpoints/tokenizer.pt   - FSQ tokenizer checkpoint
     checkpoints/norm_stats.npz - normalization statistics
     checkpoints/smplx_model/   - SMPL-X model files
@@ -28,7 +28,7 @@ from joint2smplx import fit_smplx_from_joints
 
 
 # ---------- default paths (override via args) ----------
-DEFAULT_MLLM_PATH     = "checkpoints/mllm"
+DEFAULT_MLLM_PATH     = "checkpoints/mllm_single_3b"
 DEFAULT_TOKENIZER_PT  = "checkpoints/tokenizer.pt"
 DEFAULT_STATS_NPZ     = "checkpoints/norm_stats.npz"
 DEFAULT_SMPLX_PATH    = "checkpoints/smplx_model"

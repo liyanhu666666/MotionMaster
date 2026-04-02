@@ -62,15 +62,22 @@ MotionMaster/
 
 ### Running Inference
 
+#### Single Action Generation
+
+To generate a single motion using the `mllm_single_3b` checkpoint, run:
+
 ```sh
 python infer.py --text "a person walks forward" --output output.pkl
 ```
+
+#### Long Sequence Generation & Motion Editing
+*Coming soon!*
 
 Additional arguments:
 ```
 --text          Text description of the motion (required)
 --output        Output .pkl file path (default: output.pkl)
---mllm_path     Path to MLLM checkpoint (default: checkpoints/mllm)
+--mllm_path     Path to MLLM checkpoint (default: checkpoints/mllm_single_3b)
 --tokenizer_pt  Path to FSQ tokenizer (default: checkpoints/tokenizer.pt)
 --stats_npz     Path to normalization stats (default: checkpoints/norm_stats.npz)
 --smplx_path    Path to SMPL-X model (default: checkpoints/smplx_model)
