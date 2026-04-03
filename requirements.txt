@@ -3,5 +3,5 @@ torchvision
 einops
 scipy
 omegaconf
-transformers
+transformers==4.57.3
 accelerate
